@@ -1,0 +1,30 @@
+#container{
+    display: flex;
+    width: 100%;
+  }
+  #sidebar{
+    width: 25%;
+    font-size: large;
+    font-weight: bolder;
+
+  }
+  #main{
+    width: 75%;
+    
+   
+  }
+  #main>div{
+    /* width: 70%; */
+    border: 1px solid gray;
+    margin-top: 2%;
+   
+  }
+  #sidebar>div{
+    margin-top: 20px;
+    padding: 10px;
+  }
+  #sidebar>input{
+    margin-top: 20px;
+    padding: 5px;
+  }
+  
